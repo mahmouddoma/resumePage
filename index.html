@@ -28,6 +28,7 @@
         h1,
         h2,
         h3 {
+          color: #333;
           font-size: 1.1em; /* Slightly reduce headings */
           margin: 5px 0; /* Reduce space around headings */
         }
@@ -180,7 +181,7 @@
 
       .project-description {
         font-size: 0.95em;
-        color: #555;
+        color: #333;
         line-height: 1.6;
         margin-top: 5px;
         margin-left: 0;
@@ -191,12 +192,15 @@
       .button-container {
         text-align: center;
         grid-column: 1 / span 2;
-        margin-top: 30px; /* Added space */
+        margin-top: 10px;
+        width: 27%;
+        padding: 0px;
+        /* font-size: 2px !important; */
       }
 
       button {
-        padding: 12px 24px;
-        font-size: 14px;
+        padding: 8px 8px;
+        font-size: 6px;
         cursor: pointer;
         background-color: #0066cc;
         color: white;
@@ -286,9 +290,9 @@
 
         <hr />
 
-        <h2 style="">Education</h2>
+        <h2 style="margin-top: -4px">Education</h2>
         <ul>
-          <li>
+          <li style="margin-bottom: -5px">
             <strong>Bachelor's Degree in Arts</strong>, Zagazig University,
             Egypt
           </li>
@@ -299,24 +303,15 @@
           <li><strong>Arabic:</strong> Mother Tongue</li>
           <li><strong>English:</strong> Intermediate (B1 Level)</li>
         </ul>
-        <h2>Objective</h2>
+        <!-- <h2>Objective</h2>
         <p class="summary" style="font-size: 13px">
           Motivated Front-End Developer with expertise in JavaScript and
           Angular, seeking opportunities to build scalable, high-performance web
           applications in a collaborative environment.
-        </p>
-
-        <h2 style="">Certifications</h2>
-        <ul style="margin-bottom: -30px">
-          <li><strong>Angular Nanodegree</strong>, Udacity | Aug 2022</li>
-          <li><strong>JavaScript Advanced Course</strong>, Udemy | Jun 2022</li>
-        </ul>
-
-        <hr />
-      </div>
-
-      <div class="right-column">
-        <h2>Professional Summary</h2>
+        </p> -->
+        <h2 style="margin-top: -8px; margin-bottom: 5px">
+          Professional Summary
+        </h2>
         <p class="summary" style="font-size: 13px; margin-bottom: -25px">
           Front-End Developer with 1 year of experience creating responsive,
           user-centric web applications. Expertise in Angular, JavaScript, and
@@ -326,6 +321,26 @@
           cross-functional teams to deliver high-quality software solutions.
         </p>
         <hr />
+        <h2 style="margin-top: 9px; margin-bottom: 9px">Certifications</h2>
+        <ul style="margin-bottom: -30px">
+          <li><strong>Angular Nanodegree</strong>, Udacity | Aug 2022</li>
+          <li><strong>JavaScript Advanced Course</strong>, Udemy | Jun 2022</li>
+        </ul>
+
+        <hr />
+      </div>
+
+      <div class="right-column">
+        <!-- <h2>Professional Summary</h2>
+        <p class="summary" style="font-size: 13px; margin-bottom: -25px">
+          Front-End Developer with 1 year of experience creating responsive,
+          user-centric web applications. Expertise in Angular, JavaScript, and
+          HTML/CSS. Skilled in building clean, scalable code and translating
+          design into smooth UI/UX. Passionate about optimizing performance and
+          enhancing user experience. Proven ability to collaborate with
+          cross-functional teams to deliver high-quality software solutions.
+        </p>
+        <hr /> -->
 
         <h2>Professional Experience</h2>
         <h3 style="margin-top: 0px">
@@ -366,7 +381,7 @@
 
         <hr />
 
-        <h2 style="">Projects</h2>
+        <h2 style="margin-top: -14px">Projects</h2>
         <ul class="project-list">
           <li>
             <strong>Portfolio Website Using Angular:</strong>
